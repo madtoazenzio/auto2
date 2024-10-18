@@ -811,7 +811,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "start":
         buttons = [[
-                InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                 ],[
                 InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
                 InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
@@ -973,7 +973,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "fsub":
         #add back button
         buttons = [[
-            InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')],
+            InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=start')],
             [InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1002,7 +1002,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
  
     elif query.data == "Source":
         buttons = [[
-            InlineKeyboardButton('Repo', url='https://github.com/Jisshubot/Jisshu-Filter-Bot')
+            InlineKeyboardButton('🌸', url='https://t.me/zooistore')
         ],[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about'),
             InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
@@ -1028,7 +1028,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	    )
     elif query.data == "earn":
        buttons = [[
-	      InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+	      InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
        ],[
               InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='features'),
               InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/Jisshu_support'),
