@@ -811,7 +811,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "start":
         buttons = [[
-                InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'https://t.me/+YPexbDlB4ZRjMmNl')
                 ],[
                 InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
                 InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
@@ -845,7 +845,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	)
     elif query.data == "free":
         buttons = [[
-            InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/JisshuDeveloperBot')
+            InlineKeyboardButton('☆Aᴅᴍɪɴ☆', url=f'https://t.me/prndevika_bot')
         ],[
             InlineKeyboardButton('💎 𝗖𝘂𝘀𝘁𝗼𝗺 𝗣𝗹𝗮𝗻 💎', callback_data='other')
         ],[
@@ -973,7 +973,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "fsub":
         #add back button
         buttons = [[
-            InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=start')],
+            InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'https://t.me/+YPexbDlB4ZRjMmNl')],
             [InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -998,7 +998,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview = True
 	)
     elif query.data == "mydevelopers":
-        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @JISSHU_BOTS\n👨‍💻 @IM_JISSHU\n👨‍💻 @JOYBOY_ZORO\n👨‍💻 @TG_Anonymous_Official\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
+        await query.answer("👽", show_alert=True)
  
     elif query.data == "Source":
         buttons = [[
@@ -1028,10 +1028,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	    )
     elif query.data == "earn":
        buttons = [[
-	      InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+	      InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'https://t.me/+YPexbDlB4ZRjMmNl')
        ],[
               InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='features'),
-              InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/Jisshu_support'),
+              InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/zooistore'),
        ]]
        reply_markup = InlineKeyboardMarkup(buttons)
        await client.edit_message_media(
